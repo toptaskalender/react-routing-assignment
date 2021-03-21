@@ -1,0 +1,23 @@
+.Nav-List-Items {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Nav-List-Items li {
+  padding: 1rem;
+  list-style: none;
+}
+
+.Nav-List-Items li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.Nav-List-Items li a:hover,
+.Nav-List-Items li a:active,
+.Nav-List-Items li a.active {
+  color: orangered;
+}
